@@ -9,12 +9,72 @@
 .equilibrium-img {
   border-radius: 10px;
   width: 100%;
-  height: 100%;
 }
 
 .nft-info {
 display: flex;
-align-items: center;
-justify-items: center;
+flex-direction: column;
 }
 
+.nft-name {
+  color: var(--white);
+}
+
+.nft-about {
+  color: var(--white);
+}
+
+.nft-price-line {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 5px; 
+  justify-content: space-between;
+}
+
+.nft-price-tag {
+  display: flex;
+  flex-direction: row;
+}
+
+.ethereum-icon {
+  max-width: 100%;
+  margin-right: 0.40em;
+}
+
+.price-text {
+ margin: 0;
+ color: var(--white);
+}
+
+.nft-days-left-tag {
+  display: flex;
+  flex-direction: row;
+}
+
+.clock-icon {
+  max-width: 100%;
+  margin-right: 0.40em;
+}
+
+.days-left-text {
+  margin: 0;
+  color: var(--white);
+}
+
+.created-by {
+  display: flex;
+  direction: row;
+}
+
+.avatar-image {
+  width: 32px;
+  height: 32px;
+  border: 1px solid var(--white);
+  border-radius: 50%;
+}
+
+.created-by-text {
+  margin: 0;
+  color: var(--white);
+}
