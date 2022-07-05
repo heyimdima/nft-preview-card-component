@@ -2,13 +2,14 @@
   background-color: var(--cardBg);
   border-radius: 15px;
   max-width: 300px;
-  max-height: 500px;
+  max-height: 525px;
   padding: 1.5em;
 }
 
 .equilibrium-img {
   border-radius: 10px;
   width: 100%;
+  margin-bottom: 1em;
 }
 
 .nft-info {
@@ -18,18 +19,26 @@ flex-direction: column;
 
 .nft-name {
   color: var(--white);
+  margin: 0;
+  font-size: 21px;
+  margin-bottom: 1em;
+  font-weight: 600;
 }
 
 .nft-about {
-  color: var(--white);
+  color: var(--softBlue);
+  margin: 0;
+  font-size: 18px;
+  margin-bottom: 1em;
+  font-weight: 300;
 }
 
 .nft-price-line {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  padding: 5px; 
   justify-content: space-between;
+  font-weight: 400;
 }
 
 .nft-price-tag {
@@ -43,8 +52,9 @@ flex-direction: column;
 }
 
 .price-text {
- margin: 0;
- color: var(--white);
+  margin: 0;
+  color: var(--cyan);
+  font-size: 14px;
 }
 
 .nft-days-left-tag {
@@ -59,7 +69,17 @@ flex-direction: column;
 
 .days-left-text {
   margin: 0;
-  color: var(--white);
+  color: var(--softBlue);
+  font-size: 14px;
+}
+
+.spacer-line {
+  border: 0;
+  height: 1px;
+  width: 100%;
+  background-color: var(--lineColor);
+  margin-bottom: 1em;
+  margin-top: 1em;
 }
 
 .created-by {
@@ -77,4 +97,6 @@ flex-direction: column;
 .created-by-text {
   margin: 0;
   color: var(--white);
+  margin-top: 0.5em;
+  margin-left: 1em;
 }
