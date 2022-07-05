@@ -6,6 +6,7 @@
 --white: hsl(0, 0%, 100%);
 --softBlue: hsl(215, 51%, 70%);
 --cyan: hsl(178, 100%, 50%);
+--cyanHover: hsla(178, 100%, 50%, 0.5);
 }
 
 html, body {
